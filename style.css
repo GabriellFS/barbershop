@@ -1,0 +1,154 @@
+.bg{
+    background-image: url(imagens/madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+main{
+    
+    margin: auto;
+    min-width: 320px;
+    max-width: 1300px;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    margin-left: 120px;
+}
+.caixa_menu{
+    width: 940px; 
+    position: relative;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 30px;         
+}
+
+nav a{
+    text-transform:uppercase;   
+    color:#ffffff;            
+    font-size: 20px;            
+    text-decoration: none;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif; 
+    text-shadow: 2px 2px 5px #A9A9A9;
+}
+
+ nav a:hover{
+     color: #A9A9A9;
+     
+ }
+
+.caixa{
+
+    background-image: url(imagens/tijolos.jpg);
+    background-position: center;
+    border: solid #1C1C1C 4px;
+    width: 1300px;
+    height: 700px;
+    margin: 120px auto;
+    box-shadow: 0 0 5em #000000;
+ 
+}
+
+.conteudo{
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+
+.imagem1{
+    width: 300px;
+    height: 400px;
+    border: solid #B8860B 6px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.conteudo2{
+    width: 400px;
+    display: inline;
+    float: right;
+    margin-inline: 180px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+.conteudo2 h1{
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase; 
+    text-decoration: underline; 
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;  
+}
+
+.conteudo2 h3{
+    font-size: 30px;
+    color: #e6b800;
+    text-transform: uppercase;
+    font-family: monospace, monaco;
+    margin-top: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #B8860B;
+}
+
+.conteudo2 p{
+    font-family: Helvetica, sans-serif;
+    color:#ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+   
+}
+
+#galery{
+    background-color: #e6b800;
+    width: 90px;
+    height: 30px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 40px;
+
+}
+
+.social-midia{
+    width: 60px;
+    margin-left: 1150px;
+}
+
+
+#insta{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+ #face{
+     width: 50px;
+     margin-top: 15px;
+ }
+
+footer p{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #B8860B;
+
+}
